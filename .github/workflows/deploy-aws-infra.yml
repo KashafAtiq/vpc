@@ -40,11 +40,11 @@ on:
       app_instance_type:
         description: EC2 instance type for the app servers
         required: false
-        default: t3.micro
+        default: t2.micro
       bastion_instance_type:
         description: EC2 instance type for the bastion host
         required: false
-        default: t3.micro
+        default: t2.micro
 
 permissions:
   contents: read

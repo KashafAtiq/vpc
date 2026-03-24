@@ -21,11 +21,11 @@ Parameters:
 
   AppInstanceType:
     Type: String
-    Default: t3.micro
+    Default: t2.micro
 
   BastionInstanceType:
     Type: String
-    Default: t3.micro
+    Default: t2.micro
 
   DesiredCapacity:
     Type: Number
